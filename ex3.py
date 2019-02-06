@@ -1,7 +1,7 @@
 print ("I will now count my chickens:")
 
-print ("Hens", 25 + 30 / 6)
-print ("Roosters", 100 - 25 * 3 % 4 )
+print ("Hens", 25.0 + 30.0 / 6)
+print ("Roosters", 100.00 - 25 * 3 % 4 )
 
 print ("Now I  will count the eggs:")
 
