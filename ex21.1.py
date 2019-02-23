@@ -1,4 +1,4 @@
-def add(a, b):
+def add(a = int(input("Enter your first number")), b = int(input("enter your second number"))):
     print(f"ADDING {a} + {b}")
     return a + b
 def subtract(a, b):
@@ -13,7 +13,7 @@ def divide(a, b):
 
 print("Let's do some math with just functions!")
 
-age = add(30, 5)
+age = add()
 height = subtract(78, 4)
 weight = multiply(90, 2)
 iq = divide(100, 2)
